@@ -214,7 +214,7 @@ public class RegisterUser extends BaseActions {
                 .click(register.getButtonSubmit())
                 .perform();
 
-        click(register.getButtonToContinue()).perform();
+//        click(register.getButtonToContinue()).perform();
 
         return randomEmail;
     }
